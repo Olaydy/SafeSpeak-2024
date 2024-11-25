@@ -31,7 +31,8 @@ if __name__ == "__main__":
                         type=str,
                         default='configs/config_rescapsguard.json')
     parser.add_argument('--eval_path_wav',
-                        type=str)
+                        type=str,
+                        default=/kaggle/input/safe-speak-2024-audio-spoof-detection-hackathon/wavs/)
     parser.add_argument('--output_file',
                         type=str,
                         default='submit.csv')
