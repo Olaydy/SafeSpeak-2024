@@ -7,9 +7,9 @@
       "first_conv": 128,
       "filts": [70, [1, 32], [32, 32], [32, 64], [64, 64]]
   },
-  "device": "cpu",
+  "device": "cuda:0",
   "num_class": 2,
-  "gpu_id": -1,
+  "gpu_id": 0,
   "num_capsules": 30,
   "epoches": 70,
   "opt": "Adam",
